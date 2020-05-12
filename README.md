@@ -10,6 +10,8 @@ After launch, when the linux dekstop comes up, choose 'Use default config' butto
 In the upper left of the dekstop screen, click on `Applications` > select `Run Program...` from the top of the list, and enter `pymol` (all lowercase). Click the `Launch` button below where you entered `pymol`
 That will Launch PyMOL on a remote, temporary computer streaming in your browser.
 
+Choose `skip activation` in the dialog box that comes up as PyMOL starts.
+
 Type next to any `PyMOL>` prompt you see on the screen fetch` followed by a PDB id and you'll be viewing your choice of molecule.
 
 If you end up making anything useful, such as a session file (ending in `.pse`) or image file, you'll want to download it to your local machine. You'll need to do that from a different interface with the remote machine. Look at the URL of your PyMOL session screen and copy it. It will look similar to the following but be unique in some ways, such as the part in front of `mybinder` may be different depending on where in the global network the remote machine is:
