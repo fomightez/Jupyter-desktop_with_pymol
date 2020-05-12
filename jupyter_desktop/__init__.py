@@ -15,7 +15,7 @@ def setup_desktop():
         os.path.join(HERE, 'share/tigervnc/bin/vncserver'),
         '-verbose',
         '-xstartup', os.path.join(HERE, 'share/xstartup'),
-        '-geometry', '1024x768', # formerly was '1680x1050', put pymol interface was too pixelated; copied '1024x768' from https://github.com/manics/jupyter-omeroanalysis-desktop/blob/napari-binder/jupyter_desktop/jupyter_desktop.py
+        '-geometry', '1024x768', # formerly was '1680x1050', but pymol interface was too pixelated; copied '1024x768' from https://github.com/manics/jupyter-omeroanalysis-desktop/blob/napari-binder/jupyter_desktop/jupyter_desktop.py
         '-SecurityTypes', 'None',
         '-rfbunixpath', sockets_path,
         '-fg',
