@@ -10,7 +10,9 @@ After launch, when the linux dekstop comes up, choose 'Use default config' butto
 In the upper left of the dekstop screen, click on `Applications` > select `Run Program...` from the top of the list, and enter `pymol` (all lowercase). Click the `Launch` button below where you entered `pymol`
 That will Launch PyMOL on a remote, temporary computer streaming in your browser.
 
-Choose `skip activation` in the dialog box that comes up as PyMOL starts.
+Choose `Skip Activation` at the bottom the dialog box that comes up as PyMOL starts.
+
+Adjust the width of the PyMOL window, if you like, by dragging on the bottom right corner.
 
 Next to any `PyMOL>` prompt you see on the screen, type `fetch` followed by a PDB id and you'll be viewing your choice of molecule.
 
