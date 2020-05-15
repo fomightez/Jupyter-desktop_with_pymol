@@ -5,9 +5,9 @@
 
 To get started, click on `launch binder` badge at the top of bottom of this page.
 
-After launch, when the linux dekstop comes up, choose 'Use default config' button on the left.
+After launch, when the linux desktop comes up, choose 'Use default config' button on the left.
 
-In the upper left of the dekstop screen, click on `Applications` > select `Run Program...` from the top of the list, and enter `pymol` (all lowercase). Click the `Launch` button below where you entered `pymol`
+In the upper left of the desktop screen, click on `Applications` > select `Run Program...` from the top of the list, and enter `pymol` (all lowercase). Click the `Launch` button below where you entered `pymol`
 That will Launch PyMOL on a remote, temporary computer streaming in your browser.
 
 Choose `Skip Activation` at the bottom the dialog box that comes up as PyMOL starts.
