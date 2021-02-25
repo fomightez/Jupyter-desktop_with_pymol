@@ -32,25 +32,25 @@ Hit return to load the page. Your generated PyMOL session file (ending in `.pse`
 
 ----
 
-## How to use PyMOL
+## How to use PyMOL GUI in general
 
-I list a number of resources for using PyMOL [here](https://github.com/fomightez/pymol-binder#resources). The top of that list emphasizes using the commands to interact with PyMOL; however, there are several that use the graphical user interface there as well. Those steps should work in sessions launched from here.
+I list a number of resources for using PyMOL [here](https://github.com/fomightez/pymol-binder#resources).  
+The top of that list emphasizes using the commands and scripts to interact with PyMOL; however, there are several that use the graphical user interface there as well. Those steps should work in sessions launched from here.
 
 -----
+
+# How to use PyMOL using scripts and the API
 
 If you want to use PyMOL reproducibly using scripts and the API, see [here for PyMOL use via commandline on Jupyter using MyBinder](https://github.com/fomightez/pymol-binder).
-
------
-
-
-This repo was originally meant to be able to run `pymol_preview_generator.py` from [here](https://github.com/mmagnus/rna-tools/tree/master/rna_tools/tools/pymol_preview_generator); however, the XFCE desktop doesn't seem to allow the icons to be changed (even using `gio set`), and so that was **a dead-end effort for now**. However, since PyMOL did at leat work in the desktop GUI, I left it in this state and a use case arose later where I could use it for training.
-
 
 
 
 -----
 
 ## Technical details
+
+This repo was originally meant to be able to run `pymol_preview_generator.py` from [here](https://github.com/mmagnus/rna-tools/tree/master/rna_tools/tools/pymol_preview_generator); however, the XFCE desktop doesn't seem to allow the icons to be changed (even using `gio set`), and so that was **a dead-end effort for now**. However, since PyMOL did at leat work in the desktop GUI, I left it in this state and a use case arose later where I could use it for training.
+
 
 [Original source repo](https://github.com/yuvipanda/jupyter-desktop-server) allows running Run XFCE (or other desktop environments) on a JupyterHub. Source based on https://github.com/ryanlovett/nbnovnc and a fork of https://github.com/manics/jupyter-omeroanalysis-desktop .
 
