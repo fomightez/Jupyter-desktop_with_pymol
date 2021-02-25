@@ -32,10 +32,10 @@ Hit return to load the page. Your generated PyMOL session file (ending in `.pse`
 
 ----
 
-## How to use PyMOL GUI in general
+## How to use the PyMOL GUI in general
 
 I list a number of resources for using PyMOL [here](https://github.com/fomightez/pymol-binder#resources).  
-The top of that list emphasizes using the commands and scripts to interact with PyMOL; however, there are several that use the graphical user interface there as well. Those steps should work in sessions launched from here.
+There are several tutorials listed towards that bottom of that list that use the graphical user interface for interacting with PyMOL. **Using PyMOL via a mouse and display is how people tpyically use PyMOL.** Those steps should work in sessions launched from here.  However, the top of that list emphasizes using the commands and scripts to interact with PyMOL and allow one to work more reproducibly or accomplish repetitive tasks. 
 
 -----
 
