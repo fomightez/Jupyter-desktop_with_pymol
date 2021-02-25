@@ -32,6 +32,12 @@ Hit return to load the page. Your generated PyMOL session file (ending in `.pse`
 
 ----
 
+## How to use PyMOL
+
+I list a number of resources for using PyMOL [here](https://github.com/fomightez/pymol-binder#resources). The top of that list emphasizes using the commands to interact with PyMOL; however, there are several that use the graphical user interface there as well. Those steps should work in sessions launched from here.
+
+-----
+
 If you want to use PyMOL reproducibly using scripts and the API, see [here for PyMOL use via commandline on Jupyter using MyBinder](https://github.com/fomightez/pymol-binder).
 
 -----
