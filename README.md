@@ -39,7 +39,7 @@ There are several tutorials listed towards that bottom of that list that use the
 
 -----
 
-# How to use PyMOL using scripts and the API
+## How to use PyMOL using scripts and the API
 
 If you want to use PyMOL reproducibly using scripts and the API, see [here for PyMOL use via commandline on Jupyter using MyBinder](https://github.com/fomightez/pymol-binder).
 
