@@ -1,7 +1,7 @@
 # Jupyter Desktop Server with PyMOL installed
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/fomightez/Jupyter-desktop_with_pymol/master?urlpath=desktop)
 
-## How to use
+## How to start a remote computing session and open & use PyMOL on the remote desktop
 
 To get started, click on `launch binder` badge at the top of bottom of this page.
 
