@@ -1,12 +1,14 @@
 channels:
   - manics
   - schrodinger
+  - speleo3
   - defaults
 dependencies:
   - websockify
   - pymol>=2.3
   - pymol-psico
   - biopython
+  - csb
   - libglu
   - glew
   - pip
