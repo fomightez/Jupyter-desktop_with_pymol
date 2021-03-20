@@ -52,6 +52,8 @@ If you want to use PyMOL reproducibly or do repetitive tasks using scripts and t
 
 This repo was originally meant to be able to run `pymol_preview_generator.py` from [here](https://github.com/mmagnus/rna-tools/tree/master/rna_tools/tools/pymol_preview_generator); however, the XFCE desktop doesn't seem to allow the icons to be changed (even using `gio set`), and so that was **a dead-end effort for now**. However, since PyMOL did at leat work in the desktop GUI, I left it in this state and a use case arose later where I could use it for training.
 
+Presently, PyMOL installed here has the [psico](https://pymolwiki.org/index.php/Psico) python module that extends PyMOL with several commands. For example, presenelt [load_aln](https://pymolwiki.org/index.php/Load_aln) and [xfit](https://pymolwiki.org/index.php/xfit) are ready-to-use. Note that the addition of this module means `save` and `fetch` become 'overloaded with extra abilities as described [here](https://pymolwiki.org/index.php/Psico#Initialization) unless you use the `psico.init` approach specified there when importing. The fact psico doesn't even carry all the abilities needed, for example, `xfit` requirs the dependency csb is a reason I like using Binder when installing various combinations of 'extras' to test. This way I know my local installation will remain intact and I can just easily roll the repo back if something breaks, with no effect on anythign else.
+
 
 [Original source repo](https://github.com/yuvipanda/jupyter-desktop-server) allows running Run XFCE (or other desktop environments) on a JupyterHub. Source based on https://github.com/ryanlovett/nbnovnc and a fork of https://github.com/manics/jupyter-omeroanalysis-desktop .
 
