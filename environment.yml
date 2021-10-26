@@ -3,11 +3,11 @@ channels:
   - schrodinger
   - speleo3
   - conda-forge
-  - defaults
+  - anaconda
 dependencies:
   - websockify
-  - pymol==2.3.3
-  - pyqt
+  - python
+  - pymol>=2.3
   - libglu
   - glew
   - pip
