@@ -2,10 +2,11 @@ channels:
   - manics
   - schrodinger
   - speleo3
+  - conda-forge
   - defaults
 dependencies:
   - websockify
-  - pymol==2.3.3
+  - pymol==2.3.1
   - pyqt
   - libglu
   - glew
