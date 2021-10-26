@@ -6,7 +6,6 @@ channels:
 dependencies:
   - websockify
   - pymol==2.3.3
-  - biopython
   - libglu
   - glew
   - pip
