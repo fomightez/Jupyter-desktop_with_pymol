@@ -62,7 +62,7 @@ Details on some of the underlying tech is found under 'Details' [here](https://w
 Originally, dimensions of the desktop geometry were set to '1680x1050' due to [original source repo](https://github.com/yuvipanda/jupyter-desktop-server), but PyMOL interface was overly pixelated; copied '1024x768' geometry from [here](https://github.com/manics/jupyter-omeroanalysis-desktop/blob/napari-binder/jupyter_desktop/jupyter_desktop.py).
 
 
-This had stopped working apparently when they updated behind-the-scenes of Binder in late summer/eary Fall 2021. Luckily, the headless one [here](https://github.com/fomightez/pymol-binder) continued to work and show it had PyQt5 installed and working which is what I thought was the issue with this one as a I attempted to fix before realizing PyQt5 worked there. And after much fussing around in October 2021, I got it back to working based on that repositories `apt.txt` and `environment.yml` as the basis.
+This had stopped working apparently when they updated behind-the-scenes of Binder in late summer/eary Fall 2021. Luckily, the headless one [here](https://github.com/fomightez/pymol-binder) continued to work and show it had PyQt5 installed and working which is what I thought was the issue with this one as a I attempted to fix before realizing PyQt5 worked there. And after much fussing around in October 2021, I got it back to working based on that repositories `apt.txt` and `environment.yml` as the basis. It  did say, "There was an error initializing GLEW/ Basics graphics, including shaders and volumes may be unavailable." However, I don't know if I overlooked this earlier and this is much improved since nothing was working in the last few days.
 
 ----
 
