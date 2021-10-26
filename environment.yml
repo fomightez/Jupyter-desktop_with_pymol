@@ -12,5 +12,5 @@ dependencies:
   - glew
   - pip
   - pip:
-    - pyqt5
+    - .
     
