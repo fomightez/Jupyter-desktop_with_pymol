@@ -40,7 +40,7 @@ There are several tutorials listed towards that bottom of that list that use the
 ## How to use PyMOL using scripts and the API
 
 **While using PyMOL via a mouse and display is how people tpyically use PyMOL, it isn't the only way.**  
-If you want to use PyMOL reproducibly or do repetitive tasks using scripts and the API, see [here for PyMOL use via commandline on Jupyter using MyBinder](https://github.com/fomightez/pymol-binder).
+If you want to use PyMOL reproducibly or do repetitive tasks in a largely automated way using scripts and the API, see [here for PyMOL use via commandline on Jupyter using MyBinder](https://github.com/fomightez/pymol-binder).
 
 
 
