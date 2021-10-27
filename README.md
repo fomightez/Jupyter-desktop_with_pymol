@@ -1,5 +1,5 @@
 # Jupyter Desktop Server with PyMOL installed
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/fomightez/Jupyter-desktop_with_pymol/master?urlpath=desktop)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/fomightez/Jupyter-desktop_with_pymol/HEAD?urlpath=desktop)
 
 ## How to start a remote computing session and open & use PyMOL on the remote desktop
 
@@ -77,4 +77,4 @@ This had stopped working apparently when they updated behind-the-scenes of Binde
 
 ----
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/fomightez/Jupyter-desktop_with_pymol/master?urlpath=desktop)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/fomightez/Jupyter-desktop_with_pymol/HEAD?urlpath=desktop)
