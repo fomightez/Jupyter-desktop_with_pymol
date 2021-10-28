@@ -10,7 +10,7 @@ That will Launch PyMOL on a remote, temporary computer streaming in your browser
 
 Choose `Skip Activation` at the bottom the dialog box that comes up as PyMOL starts.
 
-Adjust the width of the PyMOL window, if you like, by dragging on the bottom right corner.
+Adjust the width of the PyMOL window by dragging on the bottom right corner down and to the right to maximize screen real estate to suit your preference.
 
 Next to any `PyMOL>` prompt you see on the screen, type `fetch` followed by a PDB id and you'll be viewing your choice of molecule.
 
@@ -42,6 +42,13 @@ There are several tutorials listed towards that bottom of that list that use the
 **While using PyMOL via a mouse and display is how people tpyically use PyMOL, it isn't the only way.**  
 If you want to use PyMOL reproducibly or do repetitive tasks in a largely automated way using scripts and the API, see [here for PyMOL use via commandline on Jupyter using MyBinder](https://github.com/fomightez/pymol-binder).
 
+-----
+
+## Extending PyMOLs abilities
+
+There's software availabe that extends PyMOL's abilties and features. For example, [psico](https://pymolwiki.org/index.php/Psico) is a python module which extends PyMOL with many commands. I have made a separate repo [here](https://github.com/fomightez/Jupyter-desktop_with_pymol_plus_extensions/) as a playground for adding such extensions. See there and the 'Technical details' below for guidance if adding these to this remote-served PyMOL interests you.  
+
+
 
 
 -----
@@ -55,7 +62,7 @@ October 26th, 2021, I had restored to a working state. the version of the deskto
 Lately, I had seen that [here](https://github.com/jupyterhub/jupyter-remote-desktop-proxy) updated the Linux remote desktop look be nicer and have a better user experience. For example, in addition to the better graphics, you no longer had to choose 'Use default config' button after launch. Thought since better, it may help impove using PyMOL via this system, too, and so I made repository [here](https://github.com/fomightez/jupyter-remote-desktop-proxy), where I could adapt the current version of [here](https://github.com/jupyterhub/jupyter-remote-desktop-proxy/tree/7d9b2810669e22b5ecdcfee8d8f531c3da0ab8a9) to add in PyMOL. I succeeded in adding it in [there](https://github.com/fomightez/jupyter-remote-desktop-proxy) and PyMOL worked with the better linux desktop interface (**BETTER GRAPHICS AND DESKTOP EXPERIENCE**) as of October 27th, 2021, in launches from [this version](https://github.com/jupyterhub/jupyter-remote-desktop-proxy/tree/7d9b2810669e22b5ecdcfee8d8f531c3da0ab8a9).
 On October 27th, 2021, I converted this repo over from the previous desktop experience to the updated Linux dekstop experience based on [here](https://github.com/jupyterhub/jupyter-remote-desktop-proxy/tree/7d9b2810669e22b5ecdcfee8d8f531c3da0ab8a9) in the hopes I can easily now share the better desktop experience with PyMOL (**BETTER GRAPHICS AND DESKTOP EXPERIENCE**) instead of the older graphics experience that while useable, was not nearly as good as working with PyMOL directly on a computer. I find the experience based on [here](https://github.com/jupyterhub/jupyter-remote-desktop-proxy/tree/7d9b2810669e22b5ecdcfee8d8f531c3da0ab8a9) seems very close to working with it on your own machine if you expand the browser window and then click drag the PyMOL window inside the desktop view.  
 
-For now, it is basic PyMOL. I have removed the [psico](https://pymolwiki.org/index.php/Psico) python module that extends PyMOL with several commands.
+For now, it is basic PyMOL. I have removed the [psico](https://pymolwiki.org/index.php/Psico) python module that extends PyMOL with several commands, as well as the [rna-tools](https://github.com/mmagnus/rna-tools). In fact, I decided a separate place for running/testing extensions may be in order as I have referred people here for PyMOL now and would be best to maintain an experience close to what they'd have if installed the standard software. See https://github.com/fomightez/Jupyter-desktop_with_pymol_plus_extensions/ for that.
 </details>
 
 <details>
