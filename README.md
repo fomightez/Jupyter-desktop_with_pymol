@@ -44,7 +44,7 @@ If you want to use PyMOL reproducibly or do repetitive tasks in a largely automa
 
 -----
 
-## Extending PyMOLs abilities
+## Extending PyMOL's abilities
 
 There's software availabe that extends PyMOL's abilties and features. For example, [psico](https://pymolwiki.org/index.php/Psico) is a python module which extends PyMOL with many commands. I have made a separate repo [here](https://github.com/fomightez/Jupyter-desktop_with_pymol_plus_extensions/) as a playground for adding such extensions. See there and the 'Technical details' below for guidance if adding these to this remote-served PyMOL interests you.  
 
