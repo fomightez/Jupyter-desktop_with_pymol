@@ -8,11 +8,11 @@ To get started, click on `launch binder` badge at the top of bottom of this page
 In the upper left of the desktop screen, click on `Applications` > select `Run Program...` from the top of the list, and enter `pymol` (all lowercase). Click the `Launch` button below where you entered `pymol`
 That will Launch PyMOL on a remote, temporary computer streaming in your browser.
 
-Choose `Skip Activation` at the bottom the dialog box that comes up as PyMOL starts.
-
 Adjust the width of the PyMOL window by dragging on the bottom right corner down and to the right to maximize screen real estate to suit your preference.
 
 Next to any `PyMOL>` prompt you see on the screen, type `fetch` followed by a PDB id and you'll be viewing your choice of molecule.
+
+**There is a Remote Clipboard tool in the upper right corner for passing text into and out of the remote virtual machine** where is this running.
 
 If you end up making anything useful, such as a session file (ending in `.pse`) or image file, you'll want to download it to your local machine. You'll need to do that from a different interface with the remote machine. Look at the URL of your PyMOL session screen and copy it. It will look similar to the following but be unique in some ways, such as the part in front of `mybinder` may be different depending on where in the global network the remote machine is:
 
@@ -56,7 +56,20 @@ There's software availabe that extends PyMOL's abilties and features. For exampl
 ## Technical details
 
 <details>
-  <summary>Click to expand and see technical details from October 27th, 2021 onward.</summary>
+  <summary>Click to expand and see technical details from July 8th 2025onward</summary>
+
+July 8th 2025, I have restored to a working state. The version of the desktop Jupyter with PyMOL installed and working as a GUI. This is based on the Linux Desktop offered by Spyder [here](https://github.com/spyder-ide/binder-environments) and no longer the version I used before that is more detailed under older technical details below.
+
+In addition to restoring it to working again in MyBinder, this **addsa Remote Clipboard tool in the upper right corner that makes it possible to pass text into and out of the remote virtual machine** where is this running. This is amazing.
+
+The current version of PyMOL here now is the open source one detailed [here](https://anaconda.org/conda-forge/pymol-open-source) and [here](https://github.com/schrodinger/pymol-open-source/) and [here](https://pymol.org/#opensource) <=== Probably the most, that most people are looking for.
+
+I do note there is also [this one](https://anaconda.org/schrodinger/pymol) that would require dismissing the activation. That was the one I used prior but switched for now to the open source to see how it goes.
+
+</details>
+
+<details>
+  <summary>Click to expand and see technical details from October 27th, 2021 to July 8th 2025</summary>
 
 October 26th, 2021, I had restored to a working state. the version of the desktop Jupyter with pymol installed and working as a GUI. This was the version of the desktop and Pymol that looked okay but graphically wasn't the best. It was based on what [here](https://github.com/fomightez/jupyter-desktop-server) is based on. I plan to leave that in the current state because I found on October 26th probably good to have some variants of this tech available since it can be a bit fragile and having things that I knew worked in past can be useful.  
 Lately, I had seen that [here](https://github.com/jupyterhub/jupyter-remote-desktop-proxy) updated the Linux remote desktop look be nicer and have a better user experience. For example, in addition to the better graphics, you no longer had to choose 'Use default config' button after launch. Thought since better, it may help impove using PyMOL via this system, too, and so I made repository [here](https://github.com/fomightez/jupyter-remote-desktop-proxy), where I could adapt the current version of [here](https://github.com/jupyterhub/jupyter-remote-desktop-proxy/tree/7d9b2810669e22b5ecdcfee8d8f531c3da0ab8a9) to add in PyMOL. I succeeded in adding it in [there](https://github.com/fomightez/jupyter-remote-desktop-proxy) and PyMOL worked with the better linux desktop interface (**BETTER GRAPHICS AND DESKTOP EXPERIENCE**) as of October 27th, 2021, in launches from [this version](https://github.com/jupyterhub/jupyter-remote-desktop-proxy/tree/7d9b2810669e22b5ecdcfee8d8f531c3da0ab8a9).
