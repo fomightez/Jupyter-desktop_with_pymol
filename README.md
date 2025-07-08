@@ -14,7 +14,7 @@ Next to any `PyMOL>` prompt you see on the screen, type `fetch` followed by a PD
 
 **There is a Remote Clipboard tool in the upper right corner for passing text into and out of the remote virtual machine** where is this running.
 
-If you end up making anything useful, such as a session file (ending in `.pse`) or image file, you'll want to download it to your local machine. You'll need to do that from a different interface with the remote machine. Look at the URL of your PyMOL session screen and copy it. It will look similar to the following but be unique in some ways, such as the part in front of `mybinder` may be different depending on where in the global network the remote machine is:
+If you end up making anything useful, such as a session file (ending in `.pse`) or an image file, you'll want to download it to your local machine. You'll need to do that from a different interface with the remote machine. Look at the URL of your PyMOL session screen and copy it. It will look similar to the following but be unique in some ways, such as the part in front of `mybinder` may be different depending on where in the global network the remote machine is:
 
 ```
 https://hub.gke.mybinder.org/user/fomightez-jupyt-ktop_with_pymol-r7gbgfa3/desktop/?token=zdDDLXhXTzSw7Xcg0g1zfg
@@ -56,7 +56,7 @@ There's software availabe that extends PyMOL's abilties and features. For exampl
 ## Technical details
 
 <details>
-  <summary>Click to expand and see technical details from July 8th 2025onward</summary>
+  <summary>Click to expand and see technical details from July 8th 2025 onward</summary>
 
 July 8th 2025, I have restored to a working state. The version of the desktop Jupyter with PyMOL installed and working as a GUI. This is based on the Linux Desktop offered by Spyder [here](https://github.com/spyder-ide/binder-environments) and no longer the version I used before that is more detailed under older technical details below.
 
